@@ -1,0 +1,97 @@
+/* SECCION: Variables globales */
+:root{
+    --blanco: #ffffff;
+    --oscuro: #212121;
+    --primario: #ffC107;
+    --secundario: #0097a7;
+    --gris: #929292;
+    --grisclaro: #DFE9F3;
+}
+
+html{ /*abraza a todo el codigo fuente */
+    font-size: 62.5%;
+    box-sizing: border-box; /*Hack para box model*/
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+body{
+    font-size: 12px;
+    background-color: var(--c_fondo);
+    font-family: 'Roboto Condensed', sans-serif;
+}
+/* FIN SECCION: Variables globales */
+
+
+
+/* LOGIN */
+.paginaLogin{
+    background: linear-gradient(35deg, rgb(116, 154, 172), rgb(46, 81, 100)) ;
+    height: 50rem;
+}
+
+.login{
+    margin: 5rem 3rem;
+    background-color: rgb(110, 110, 110);
+    padding: 4rem;
+    border-radius: 1rem;
+}
+
+.iconoLogin{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.iconoLogin span{
+    font-size: 4rem;
+}
+
+.item{
+    margin: 0 4rem 0 4rem;
+}
+
+.titulo{
+    font-weight: bold;
+    color: white;
+}
+
+.botones{
+    display: flex;
+    justify-content: center;
+}
+.boton1, .boton2{
+    margin: 0 .5rem 0 .5rem;
+}
+/* FIN LOGIN */
+
+
+
+/* Registro */
+.paginaRegistro{
+    background: linear-gradient(35deg, rgb(144, 168, 179), rgb(214, 214, 214)) ;
+    height: 50rem;
+}
+.registro{
+    margin: 5rem 3rem;
+    background-color: rgb(110, 110, 110);
+    padding: 4rem;
+    border-radius: 1rem;
+}
+
+.iconoRegistro{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.iconoRegistro span{
+    font-size: 4rem;
+}
+/* FIN de registro */
+
+
+
+/* Banco */
+
+/* FIN de banco */
