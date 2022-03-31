@@ -93,5 +93,52 @@ body{
 
 
 /* Banco */
+.cont{
+    margin: 3rem;
+    display: grid;
+    grid-template-areas: 
+    "sidebar main main main main";
+}
+
+.img_usuario{
+    width: 10rem;
+    border-radius: 1rem;
+}
+
+.sidebar{
+    grid-area: sidebar;
+}
+
+.main{
+    grid-area: main;
+    
+}
+
+.bienvenido{
+    margin: 1rem;
+}
+
+.operBotones{
+    text-align: center;
+}
+
+.operBoton{
+    margin: 0 1rem 0 1rem;
+}
+
+.movimientos{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.movItem1, 
+.movItem2, 
+.movItem3{
+    text-align: center;
+}
+.movText{
+    font-size: 1.2rem;
+}
 
 /* FIN de banco */
