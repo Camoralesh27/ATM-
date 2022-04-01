@@ -26,7 +26,7 @@
     <!-- Fin de Fuente de google fonts -->
 
     <!-- Link para JS -->
-    <script defer src="main.js"></script>
+    <script defer src="js/main.js"></script>
     <!-- Fin de Link para JS -->
 
     <!-- Boostrap -->
@@ -50,16 +50,22 @@
     <form>
         <div class="mb-3 item">
           <label for="inputNombre" class="form-label titulo">Usuario:</label>
-          <input type="text" class="form-control" id="inputNombre">
+          <input 
+          type="text" 
+          class="form-control" 
+          id="inputNombre">
         </div>
 
         <div class="mb-3 item">
           <label for="inputContraseña" class="form-label titulo">Contraseña:</label>
-          <input type="password" class="form-control" id="inputContraseña">
+          <input 
+          type="password" 
+          class="form-control" 
+          id="inputContra1">
         </div>
         
         <div class="botones">
-        <button type="submit" class="btn btn-primary boton1">Ingresar</button>
+        <button type="submit" class="btn btn-primary boton1" onclick="login()">Ingresar</button>
 
         <a class="btn btn-light boton2" href="registro.html">Registrarse</a>
         </div>
